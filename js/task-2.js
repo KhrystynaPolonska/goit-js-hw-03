@@ -1,6 +1,6 @@
 
 function makeArray(firstArray, secondArray, maxLength) {
-    const comboArray = firstArray.contact.(secondArray);
+    const comboArray = firstArray.concat(secondArray);
      if (comboArray.length > maxLength) {
     return comboArray.slice(0, maxLength);
      }
